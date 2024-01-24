@@ -1,0 +1,11 @@
+{
+    "name": "Spood's Express Delivery",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/My-man-Spood/Spood.LethalCompany",
+    "description": "Adds an option for faster delivery in the store.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100",
+        "Evaisa-HookGenPatcher-0.0.5",
+		"Evaisa-LethalLib-0.13.2"
+    ]
+}
