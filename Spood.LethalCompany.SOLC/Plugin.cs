@@ -6,9 +6,13 @@ using UnityEngine;
 
 namespace Spood.LethalCompany.SOLC
 {
-    [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
+    [BepInPlugin(PLUGIN_GUID, PLUGIN_NAME, PLUGIN_VERSION)]
     public class Plugin : BaseUnityPlugin
     {
+        public const string PLUGIN_GUID = "Spood.LethalCompany.SOLC";
+        public const string PLUGIN_NAME = "Spood's Overhaul for Lethal Company";
+        public const string PLUGIN_VERSION = "0.1.0";
+
         public static AssetBundle bundle;
 
         private void Awake()
